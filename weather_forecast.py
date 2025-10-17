@@ -26,7 +26,7 @@ def get_weather(api_key, city):
 
 def main():
     print("Welcome to the Weather App!")
-    api_key = "a45520875f2afa615aab71b0f3cc0df2"  # OpenWeatherMap API key
+    api_key = "  "  # OpenWeatherMap API key
     city = input("Enter the name of a city: ")
     get_weather(api_key, city)
 
